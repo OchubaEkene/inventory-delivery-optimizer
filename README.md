@@ -1,22 +1,22 @@
-# 🚚 Inventory & Delivery Optimization System
+# Inventory & Delivery Optimization System
 
 An algorithm-focused backend project that simulates real-world delivery route optimization and inventory tracking. Built using Python and PostgreSQL, and structured for scalability and performance.
 
-## 🔧 Technologies
+## Technologies
 - Python 3
 - PostgreSQL
 - Dijkstra’s Algorithm
 - SQL (normalized schema & optimized queries)
 - Flask (optional API layer)
 
-## 📦 Features
+## Features
 
-- 🚛 **Route Optimization**: Uses Dijkstra’s algorithm to find shortest paths between warehouse and shops.
-- 📊 **Scalable Inventory Schema**: Normalized PostgreSQL database for clean data operations.
-- ⚙️ **Efficient Querying**: Indexes, joins, and query plans considered for performance.
-- 🌐 **REST API (Optional)**: Expose optimization endpoints using Flask.
+- **Route Optimization**: Uses Dijkstra’s algorithm to find shortest paths between warehouse and shops.
+- **Scalable Inventory Schema**: Normalized PostgreSQL database for clean data operations.
+- **Efficient Querying**: Indexes, joins, and query plans considered for performance.
+- **REST API (Optional)**: Expose optimization endpoints using Flask.
 
-## 📁 Schema Overview
+## Schema Overview
 
 ```sql
 TABLE inventory (
